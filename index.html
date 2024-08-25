@@ -3,236 +3,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>塔塔印度支付系统 - 领先的印度支付解决方案 | 安全可靠的支付系统</title>
-    <meta name="description" content="塔塔印度支付系统提供全面的印度支付服务，包括UPI、信用卡、借记卡等支付方式。我们的支付系统安全可靠，覆盖全印度，为您的业务提供最佳的印度支付解决方案。">
+    <title>塔塔印度支付系统 - 您的印度支付专家</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <style>
-        :root {
-            --primary-color: #0066cc;
-            --secondary-color: #ff9900;
-            --background-color: #f4f4f4;
-            --text-color: #333;
-        }
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            margin: 0;
-            padding: 0;
-            background-color: var(--background-color);
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        header {
-            background-color: var(--primary-color);
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
-        h1, h2, h3 {
-            color: var(--primary-color);
+        .gradient-bg {
+            background: linear-gradient(90deg, #4F46E5, #7C3AED);
         }
         .cta-button {
-            display: inline-block;
-            background-color: var(--secondary-color);
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background-color 0.3s;
+            background-color: #F59E0B;
+            transition: all 0.3s ease;
         }
         .cta-button:hover {
-            background-color: #e68a00;
-        }
-        .feature {
-            background-color: white;
-            border-radius: 5px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .stats {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin: 2em 0;
-        }
-        .stat-item {
-            text-align: center;
-            margin: 1em;
-        }
-        .stat-number {
-            font-size: 2em;
-            font-weight: bold;
-            color: var(--primary-color);
-        }
-        footer {
-            background-color: var(--primary-color);
-            color: white;
-            text-align: center;
-            padding: 1em;
-            margin-top: 20px;
-        }
-        .contact-info {
-            background-color: white;
-            border-radius: 5px;
-            padding: 20px;
-            margin-top: 20px;
-        }
-        .contact-item {
-            margin-bottom: 10px;
+            background-color: #D97706;
+            transform: translateY(-2px);
         }
     </style>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <h1>塔塔印度支付系统 - 您的印度支付专家</h1>
-            <p>简单、安全、高效的印度支付解决方案</p>
+<body class="font-sans flex flex-col min-h-screen">
+    <header class="gradient-bg text-white py-4">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold">塔塔印度支付系统</h1>
+                <ul class="flex space-x-4">
+                    <li><a href="#features" class="hover:text-yellow-300">特点</a></li>
+                    <li><a href="#services" class="hover:text-yellow-300">服务</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-300">联系我们</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <main class="container">
-        <section id="intro">
-            <h2>为您的业务提供全面的印度支付系统服务</h2>
-            <p>塔塔印度支付系统是您值得信赖的印度支付合作伙伴，为您提供最先进、最安全的支付系统。</p>
-            <a href="#contact" class="cta-button">立即开始使用我们的印度支付系统</a>
-        </section>
-
-        <section id="stats" class="stats">
-            <div class="stat-item">
-                <div class="stat-number">5+</div>
-                <div>年印度支付行业经验</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number">100+</div>
-                <div>印度支付合作伙伴</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number">1000万+</div>
-                <div>印度支付用户</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number">29</div>
-                <div>个印度邦支付覆盖</div>
+    <main class="flex-grow">
+                <section id="hero" class="bg-gray-100 py-20">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-4">简单、安全、高效的印度支付解决方案</h2>
+                <p class="text-xl mb-8">为您的业务提供全面的印度支付系统服务</p>
+                <a href="#contact" class="cta-button text-white font-bold py-3 px-6 rounded-full text-lg inline-block">立即开始使用我们的印度支付系统</a>
             </div>
         </section>
 
-        <section id="features">
-            <h2>我们的印度支付系统优势</h2>
-            <div class="feature">
-                <h3>提升您的收入</h3>
-                <p>通过我们先进的印度支付系统，帮助您轻松接受各种支付方式，包括UPI、信用卡、借记卡等，提高交易成功率，boost您的业务收入。</p>
-            </div>
-            <div class="feature">
-                <h3>全印度支付覆盖</h3>
-                <p>我们的印度支付网络覆盖全境，无论您的客户身在何处，都能轻松完成支付。从喜马拉雅山脉到喀拉拉邦，我们的支付系统都能为您服务。</p>
-            </div>
-            <div class="feature">
-                <h3>安全可靠的支付系统</h3>
-                <ul>
-                    <li>所有印度支付交易均采用端到端加密</li>
-                    <li>符合RBI监管要求的支付系统</li>
-                    <li>通过PCI DSS安全标准认证的印度支付解决方案</li>
-                    <li>实时交易监控，为您的印度支付业务保驾护航</li>
-                </ul>
+        <section id="stats" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div class="bg-blue-100 p-6 rounded-lg shadow-md">
+                        <p class="text-4xl font-bold text-blue-600">5+</p>
+                        <p class="text-gray-600">年印度支付行业经验</p>
+                    </div>
+                    <div class="bg-green-100 p-6 rounded-lg shadow-md">
+                        <p class="text-4xl font-bold text-green-600">100+</p>
+                        <p class="text-gray-600">印度支付合作伙伴</p>
+                    </div>
+                    <div class="bg-yellow-100 p-6 rounded-lg shadow-md">
+                        <p class="text-4xl font-bold text-yellow-600">1000万+</p>
+                        <p class="text-gray-600">印度支付用户</p>
+                    </div>
+                    <div class="bg-red-100 p-6 rounded-lg shadow-md">
+                        <p class="text-4xl font-bold text-red-600">29</p>
+                        <p class="text-gray-600">个印度邦支付覆盖</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="services">
-            <h2>我们的印度支付服务</h2>
-            <div class="feature">
-                <h3>全方位印度支付接收</h3>
-                <ul>
-                    <li>UPI支付 - 印度最流行的支付方式</li>
-                    <li>信用卡/借记卡支付</li>
-                    <li>网银转账</li>
-                    <li>电子钱包</li>
-                    <li>分期付款</li>
-                </ul>
-            </div>
-            <div class="feature">
-                <h3>印度支付商户管理系统</h3>
-                <ul>
-                    <li>实时印度支付交易数据</li>
-                    <li>自动对账</li>
-                    <li>灵活的印度支付结算周期</li>
-                    <li>详细的印度支付报表分析</li>
-                </ul>
-            </div>
-            <div class="feature">
-                <h3>印度支付系统API集成</h3>
-                <ul>
-                    <li>简单易用的印度支付API</li>
-                    <li>多种编程语言SDK，方便集成印度支付功能</li>
-                    <li>印度支付系统沙箱测试环境</li>
-                    <li>专业的印度支付技术支持服务</li>
-                </ul>
+        <section id="features" class="py-16 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">我们的印度支付系统优势</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">提升您的收入</h3>
+                        <p>通过我们先进的印度支付系统，帮助您轻松接受各种支付方式，包括UPI、信用卡、借记卡等，提高交易成功率，boost您的业务收入。</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">全印度支付覆盖</h3>
+                        <p>我们的印度支付网络覆盖全境，无论您的客户身在何处，都能轻松完成支付。从喜马拉雅山脉到喀拉拉邦，我们的支付系统都能为您服务。</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">安全可靠的支付系统</h3>
+                        <ul class="list-disc list-inside">
+                            <li>所有印度支付交易均采用端到端加密</li>
+                            <li>符合RBI监管要求的支付系统</li>
+                            <li>通过PCI DSS安全标准认证的印度支付解决方案</li>
+                            <li>实时交易监控，为您的印度支付业务保驾护航</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="how-to-use">
-            <h2>如何使用塔塔印度支付系统?</h2>
-            <div class="feature">
-                <ol>
-                    <li>注册账户：填写简单的在线申请表，开启您的印度支付之旅</li>
-                    <li>完成验证：提供必要的商户资质文件，确保您符合印度支付系统的要求</li>
-                    <li>集成系统：选择适合您的印度支付系统集成方式(API/SDK/插件)</li>
-                    <li>开始收款：立即开始接受来自全印度的支付，让您的业务在印度蓬勃发展!</li>
-                </ol>
+        <section id="services" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">我们的印度支付服务</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">全方位印度支付接收</h3>
+                        <ul class="list-disc list-inside">
+                            <li>UPI支付 - 印度最流行的支付方式</li>
+                            <li>信用卡/借记卡支付</li>
+                            <li>网银转账</li>
+                            <li>电子钱包</li>
+                            <li>分期付款</li>
+                        </ul>
+                    </div>
+                    <div class="bg-green-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">印度支付商户管理系统</h3>
+                        <ul class="list-disc list-inside">
+                            <li>实时印度支付交易数据</li>
+                            <li>自动对账</li>
+                            <li>灵活的印度支付结算周期</li>
+                            <li>详细的印度支付报表分析</li>
+                        </ul>
+                    </div>
+                    <div class="bg-yellow-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">印度支付系统API集成</h3>
+                        <ul class="list-disc list-inside">
+                            <li>简单易用的印度支付API</li>
+                            <li>多种编程语言SDK，方便集成印度支付功能</li>
+                            <li>印度支付系统沙箱测试环境</li>
+                            <li>专业的印度支付技术支持服务</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="why-us">
-            <h2>为什么选择我们的印度支付系统?</h2>
-            <div class="feature">
-                <ul>
-                    <li>印度本土品牌，深谙印度支付市场</li>
-                    <li>全天候印度支付客户支持，专业技术团队</li>
-                    <li>透明的印度支付系统定价策略，无隐藏费用</li>
-                    <li>持续创新，紧跟印度支付技术发展</li>
-                </ul>
+        <section id="how-to-use" class="py-16 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">如何使用塔塔印度支付系统?</h2>
+                <div class="flex flex-wrap justify-center">
+                    <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="text-3xl font-bold text-blue-600 mb-4">1</div>
+                            <h3 class="text-xl font-semibold mb-2">注册账户</h3>
+                            <p>填写简单的在线申请表，开启您的印度支付之旅</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="text-3xl font-bold text-green-600 mb-4">2</div>
+                            <h3 class="text-xl font-semibold mb-2">完成验证</h3>
+                            <p>提供必要的商户资质文件，确保您符合印度支付系统的要求</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="text-3xl font-bold text-yellow-600 mb-4">3</div>
+                            <h3 class="text-xl font-semibold mb-2">集成系统</h3>
+                            <p>选择适合您的印度支付系统集成方式(API/SDK/插件)</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-1/4 p-4">
+                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                            <div class="text-3xl font-bold text-red-600 mb-4">4</div>
+                            <h3 class="text-xl font-semibold mb-2">开始收款</h3>
+                            <p>立即开始接受来自全印度的支付，让您的业务在印度蓬勃发展!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="contact">
-            <h2>联系塔塔印度支付系统</h2>
-            <p>准备好提升您的印度支付体验了吗?现在就开始使用塔塔印度支付系统!</p>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <strong>客户服务热线:</strong> +91 XXXXXXXXXX
-                </div>
-                <div class="contact-item">
-                    <strong>WhatsApp客服:</strong> +91 9107108839
-                </div>
-                <div class="contact-item">
-                    <strong>Telegram客服:</strong> @tatatapay8
-                </div>
-                <div class="contact-item">
-                    <strong>Telegram群组:</strong> @yinduzhifu21
-                </div>
-                <div class="contact-item">
-                    <strong>邮箱:</strong> support@tataindiapay.com
-                </div>
-                <div class="contact-item">
-                    <strong>地址:</strong> 孟买, 马哈拉施特拉邦, 印度
+        <section id="why-us" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">为什么选择我们的印度支付系统?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">印度本土品牌</h3>
+                        <p>深谙印度支付市场，了解本地需求</p>
+                    </div>
+                    <div class="bg-green-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">全天候支持</h3>
+                        <p>印度支付客户支持，专业技术团队</p>
+                    </div>
+                    <div class="bg-yellow-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">透明定价</h3>
+                        <p>印度支付系统定价策略，无隐藏费用</p>
+                    </div>
+                    <div class="bg-red-50 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold mb-4">持续创新</h3>
+                        <p>紧跟印度支付技术发展，不断优化服务</p>
+                    </div>
                 </div>
             </div>
-            <div style="margin-top: 20px;">
-                <a href="https://t.me/tatatapay8" class="cta-button">立即注册印度支付账户</a>
-                <a href="https://t.me/tatatapay8" class="cta-button">预约印度支付系统演示</a>
-                <a href="https://t.me/tatatapay8" class="cta-button">联系印度支付销售</a>
+        </section>
+        <section id="contact" class="py-16 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">联系塔塔印度支付系统</h2>
+                <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
+                    <p class="text-center mb-8">准备好提升您的印度支付体验了吗?现在就开始使用塔塔印度支付系统!</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <p class="font-semibold">客户服务热线:</p>
+                            <p>+91 9107108839</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold">WhatsApp客服:</p>
+                            <p>+91 9107108839</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold">Telegram客服:</p>
+                            <p>@tatatapay8</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold">Telegram群组:</p>
+                            <p>@yinduzhifu21</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold">邮箱:</p>
+                            <p>support@tatapayment.net</p>
+                        </div>
+                        <div>
+                            <p class="font-semibold">地址:</p>
+                            <p>孟买, 马哈拉施特拉邦, 印度</p>
+                        </div>
+                    </div>
+                    <div class="mt-8 text-center">
+                        <a href="#" class="cta-button text-white font-bold py-3 px-6 rounded-full text-lg inline-block">立即注册印度支付账户</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 塔塔印度支付系统 版权所有 | 您的可靠印度支付合作伙伴 <a href="privacy-policy.html">隐私政策</a> </p>
-        </div>
-    </footer>
 </body>
 </html>
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-center md:text-left mb-4 md:mb-0">
+                    &copy; 2024 塔塔印度支付系统 版权所有 | 您的可靠印度支付合作伙伴
+                </p>
+                <nav>
+                    <ul class="flex space-x-4">
+                        <li><a href="privacy-policy.html" class="hover:text-yellow-300 transition-colors duration-300">隐私政策</a></li>
+                        <li><a href="#" class="hover:text-yellow-300 transition-colors duration-300">使用条款</a></li>
+                        <li><a href="#contact" class="hover:text-yellow-300 transition-colors duration-300">联系我们</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
